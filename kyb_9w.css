@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'S-CoreDream-4Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff'); font-weight: normal; font-style: normal;
+}
+@font-face {
+     font-family: 'S-CoreDream-8Heavy';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+KR:wght@700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width:100%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    overflow: hidden;
+    letter-spacing: -1px;
+}
+header h1 {
+    width: 30%;
+    float:left;
+    color: rgb(115, 156, 6);
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'S-CoreDream-8Heavy'
+}
+header div {
+    float: right;
+    width: 70%;
+}
+header div ul{
+    list-style: none;
+}
+header div ul li{
+    float:left;
+    margin: 14px 50px 14px 20px;
+    color: rgb(115, 156, 6);
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+li a {
+    color: #fff;
+    text-decoration: none
+}
+section.bodysec {
+/*    border: 1px solid black;*/
+    width: 100%;
+}
+div.bodydiv01 {
+/*    border: 3px solid red;*/
+    height: 900px;
+    box-sizing: border-box;
+    color: white;
+}
+div.div00 {
+    background-image: url(una-miller-lLLNDToAi9M-unsplash.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 90px;
+    font-size: 34px;
+    font-family: 'S-CoreDream-8Heavy';
+    text-shadow: 0 5px 10px rgba(255, 255, 255, 0.73);
+}
+div.div01 {
+/*    border: 1px solid black;*/
+    width: 45%;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+    padding: 50px 30px 0px 90px;
+    font-family: 'S-CoreDream-4Regular';
+    font-size: 24px;
+    background-color: rgb(115, 156, 6);
+    overflow: hidden;
+}
+div.div02 {
+/*    border: 1px solid black;*/
+    width: 55%;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 45px 20px;
+    background-color: rgb(68, 100, 10);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+div.bodydiv02 {
+/*    border: 3px solid blue;*/
+    height: 800px;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+h1.title02 {
+    text-align: center;
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 55px;
+    color: rgb(204, 86, 86)
+}
+footer {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+div div.div03 p  {
+    font-size: 25px;
+    text-align: center;
+    font-family: S-CoreDream-4Regular;
+    line-height: 0.7em;
+}
+p#p01 {
+    font-size: 30px;
+    color: rgb(68, 100, 10);
+    font-family: 'S-CoreDream-8Heavy';
+    line-height: 1.3em;
+}
+a {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'S-CoreDream-8Heavy';
+    background-color: rgb(68, 100, 10);
+    color: #fff;
+    padding: 25px 100px;
+    border-radius: 100px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 500px;;
+}
+a:hover {
+    background-color: #fff;
+    color: rgb(68, 100, 10);
+    border: 5px solid rgb(68, 100, 10);
+/*    transform:scale(1.2);*/
+    transition: .5s;
+
+}
+img.img01 {
+    display: block;
+    margin: auto;
+    padding-top: 15px
+}
